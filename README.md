@@ -24,7 +24,7 @@ $game = new GameOfLife($size, $initialCells);
 for ($i = 0; $i < $numGenerations; $i++) {
 	$generation = $game->generation();
 	$aliveCells = $game->aliveCells();
-	$visualRepresentation =  $game->visualWorldRepresentation();
+	$visualRepresentation = $game->visualWorldRepresentation();
 
 	// Do something . . .
 
